@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/Local.png">
+    <title>Formatura ADS - Reserva de Convites</title>
+</head>
+<body>
+    <!--Cabeçalho do Site-->
+    <header>
+        <h1>Formatura do Curso de Analise de Desenvolvimento de Sistema da PUCPR</h1>
+        
+    </header>
+
+    <div class="sidebar">
+        <a href="index.html">Informações sobre o Evento</a>
+        <a class="index" href="form.html">Reserva de convites</a>
+        <a href="formAction.html">Informações sobre Reserva</a>
+        <a href="about.html">Informações Curso e Alunos</a>
+    </div>
+
+    <!--Conteúdo do Site-->
+    <main>
+        <h2>Reserva de Convites</h2>
+        <p>Preencha o formulário abaixo para reservar convites para a formatura.</p>
+
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="quantidade">Quantidade de Convites:</label>
+            <input type="number" id="quantidade" name="quantidade" required>
+
+            <button type="submit">Enviar Reserva</button>
+        </form>
+    </main>
+
+    <!--Rodapé-->
+    <footer>
+        &copy; 2023 Todos os direitos reservados
+    </footer>
+    
+</body>
+</html>
